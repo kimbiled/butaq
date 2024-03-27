@@ -13,10 +13,10 @@ export default function Map() {
                     </div>
                 </div>
                 <div className="flex-initial shrink w-full xl:w-7/12 lg:w-6/12 mb-6 md:mb-0 lg:-ml-12">
-                    <div className="bg-[#DEFFEE] h-full rounded-lg p-6 lg:pl-12 text-gray-600 flex items-center py-12 lg:py-0 z-[-10]">
+                    <div className="bg-[#4cc9f0] h-full rounded-lg p-6 lg:pl-12 text-white flex items-center py-12 lg:py-0 z-[-10]">
                     <div className="lg:pl-12">
                         <h3 className="text-2xl font-semibold  mb-6 pb-2">Вы стали жертвой?</h3>
-                        <button className="bg-green-500 rounded-xl w-48 h-12 text-white text-sm mt-[-40px] mb-4">Обратиться за помощью</button>
+                        <button className="bg-lime-300 rounded-xl w-48 h-12 text-gray-700 text-sm mt-[-40px] mb-4">Обратиться за помощью</button>
                         <h5 className="text-xl font-semibold mb-4">Также можете обращаться сюда:</h5>
                         <div className="flex flex-row">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" className="w-6 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>

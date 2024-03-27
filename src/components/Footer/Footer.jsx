@@ -14,10 +14,10 @@ export default function Footer() {
                           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Ресурсы</h2>
                           <ul className="text-gray-500  font-medium">
                               <li className="mb-4">
-                                  <a href="https://flowbite.com/" className="hover:underline">От сюда</a>
+                                  <a href="https://flowbite.com/" className="hover:underline">Новостные порталы</a>
                               </li>
                               <li>
-                                  <a href="https://tailwindcss.com/" className="hover:underline">Оттуда</a>
+                                  <a href="https://tailwindcss.com/" className="hover:underline">Статьи</a>
                               </li>
                           </ul>
                       </div>
