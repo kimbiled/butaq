@@ -1,5 +1,13 @@
 import {hero} from "../../assets/partners/index";
+import { animateScroll as scroll} from 'react-scroll';
 export default function Hero() {
+
+  const scrollToContacts = () => {
+		scroll.scrollTo(4110);
+	  };
+      const scrollToUs = () => {
+		scroll.scrollTo(1150);
+	  };
     return(
         <>
                 <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
@@ -12,8 +20,8 @@ export default function Hero() {
     <h1 class="text-5xl font-bold leading-tight mb-4">Butaq Smart Station </h1>
     <p class="text-lg text-gray-300 mb-8">A new perspective on crop monitoring in AgriTech and Industry 4.0</p>
     <div className="flex flex-row gap-6">
-    <a href="#" class="bg-indigo-600 text-white hover:bg-indigo-700 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get contacts</a>
-    <a href="#" class="bg-white text-gray-900 hover:bg-gray-200 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">About us</a>
+    <a href="#" class="bg-indigo-600 text-white hover:bg-indigo-700 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" onClick={scrollToContacts}>Get contacts</a>
+    <a href="#" class="bg-white text-gray-900 hover:bg-gray-200 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg" onClick={scrollToUs}>About us</a>
     </div>
   </div>
 </div>

@@ -1,4 +1,17 @@
+import { animateScroll as scroll} from 'react-scroll';
 export default function Navbar() {
+  const scrollToContacts = () => {
+		scroll.scrollTo(4110);
+	  };
+      const scrollToUs = () => {
+		scroll.scrollTo(1150);
+	  };
+    const scrollToProblems = () => {
+      scroll.scrollTo(850);
+      };
+        const scrollToSolution = () => {
+      scroll.scrollTo(1150);
+      };
     return(
         <>
           <nav className="bg-slate-100">
@@ -12,16 +25,16 @@ export default function Navbar() {
                     <a href="#" className=" py-2 px-3 bg-blue-700 rounded md:bg-transparent md:p-0" aria-current="page">Home</a>
                   </li>
                   <li>
-                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">Problems</a>
+                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0" onClick={scrollToProblems}>Problems</a>
                   </li>
                   <li>
-                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">Solution</a>
+                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0" onClick={scrollToSolution}>Solution</a>
                   </li>
                   <li>
-                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">About us</a>
+                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0" onClick={scrollToUs}>About us</a>
                   </li>
                   <li>
-                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">Contacts</a>
+                    <a href="#" className=" py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0" onClick={scrollToContacts}>Contacts</a>
                   </li>
                 </ul>
               </div>
